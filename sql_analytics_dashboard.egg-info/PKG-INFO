@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: sql-analytics-dashboard
+Version: 0.1.0
+Requires-Python: >=3.11
+Requires-Dist: duckdb>=1.1
+Requires-Dist: streamlit>=1.37
+Requires-Dist: plotly>=5.22
+Requires-Dist: pandas>=2.2
+Requires-Dist: faker>=25.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
